@@ -2,168 +2,98 @@
 <html>
   <head>
     <style>
-    #circle {
+      #menu ul {
+        padding:0px;
+        margin:0px;
+        list-style:none;
+      }
+      #menu ul li { 
+        display: inline;
+      }
+      #menu ul li a {
+        padding: 10px 40px;
+        background: #71C837;
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+      }
+      .botoes{
+        padding: 10px 40px;
         background: #71C837;
         width: 70px;
-        height: 70px;
-        border-radius: 80px;
-    }
-    .botoes{
-      padding: 10px 40px;
-      background: #71C837;
-      width: 70px;
-      border-radius: 25px;
-      color: white;
-      text-decoration: none;
-    }
-    .link{
-      text-decoration: none;
-    }
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+      }
+      .link{
+        text-decoration: none;
+      }
+      .rodape{
+        padding: 10px 40px;
+        background: #71C837;
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+      }
     </style>
     <link rel="icon" href="img/Logo_IFNews_quadrada.png" type="image/x-icon">
     <title>IFNews</title>
   </head>
-  <body>
+  <body width="1120px">
     <div>
-      <img src="img/Logo_IFNews.png" width="400px" heigth="auto" align="left">
-      <table align="right">
-        <tr>
-          <th>
-          </th>
-          <th>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-         <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-        </tr>
-        <tr>
-          <th>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-         <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-         <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-          <th>
-            <div id="circle">
-            </div>
-          </th>
-        </tr>
-      </table>
-      <div>
-        <table>
-          <tr>
-            <th>
-              <a href="index.html" class="link">
-                <div  class="botoes">
-                  Home
-                </div>
-              </a>
-            </th>
-            <th>
-              <a href="noticias.html" class="link">
-                <div class="botoes">
-                  Notícias
-                </div>
-              </a>
-            </th>
-            <th>
-              <a href="eventos.html" class="link">
-                <div class="botoes">
-                  Eventos
-                </div>
-              </a>
-            </th>
-            <th>
-              <a href="videos.html" class="link">
-                <div class="botoes">
-                  Vídeos
-                </div>
-              </a>
-            </th>
-            <th>
-              <a href="audios.html" class="link">
-                <div class="botoes">
-                  Áudios
-                </div>
-              </a>
-            </th>
-            <th>
-              <a href="discussoes.html" class="link">
-                <div class="botoes">
-                  Discussões
-                </div>
-              </a>
-            <th>
-              <a href="https://danielmedeirosbr.typeform.com/to/XjchXk" data-mode="1" target="_blank" class="link">
-                <div class="botoes">
-                  Fale conosco
-                </div>
-              </a>
-            </th>
-            <th>
-              <a href="sobre.html" class="link">
-                <div class="botoes">
-                  Sobre
-                </div>
-              </a>
-            </th>
-        </table>
-      </div>
+      <img src="img/top.png">
     </div>
-<script type="text/javascript" src="http://www.wikplayer.com/code.js" 
-data-config="{'skin':'http://static.tumblr.com/zeaszfj/roonlwhil/.css','volume':84,'autoplay':true,'shuffle':true,'repeat':1,'showcomment':false,'marqueetexton':true,'placement':'top','showplaylist':false,'playlist':[{'title':'work','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6ma3y4yz2mw'},{'title':'shower','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D50-_oTkmF5I'},{'title':'sorry','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfRh_vgS2dFE'},{'title':'work%20from%20home','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5GL9JoH4Sws'},{'title':'the%20hills','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyzTuBuRdAyA'}]}" ></script>
-<!-- Wikplayer code end -->
-<script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=faaf4d00f3470ad98bb0d4702bfff945"></script>
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="index.html" class="link">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="noticias.html" class="link">
+            Notícias
+          </a>
+        </li>
+        <li>
+          <a href="eventos.html" class="link">
+            Eventos
+          </a>
+        </li>
+        <li>
+          <a href="videos.html" class="link">
+            Vídeos
+          </a>
+        </li>
+        <li>
+          <a href="audios.html" class="link">
+            Áudios
+          </a>
+        </li>
+        <li>
+          <a href="discussoes.html" class="link">
+            Discussões
+          </a>
+        </li>
+        <li>
+          <a href="https://danielmedeirosbr.typeform.com/to/XjchXk" data-mode="1" target="_blank" class="link">
+            Fale conosco
+          </a>
+        </li>
+        <li>
+          <a href="sobre.html" class="link">
+            Sobre
+          </a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+    <div class="rodape" align="center">
+      jonalifnewsguarabira@gmail.com<br>
+      <a href="http://www.facebook.com/jornalifpbnews" style="text-decoration:none; color:white">
+        www.facebook.com/jornalifpbnews
+      </a><br>
+        Rua José Américo de Almeida, S/N, Nordeste I, Guarabira/PB
+    </div>
   </body>
 </html>
